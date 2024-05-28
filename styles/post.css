@@ -34,7 +34,7 @@ body {
   font-size: 20px;
   margin: 0;
 }
-.author-name span {
+.author-name u {
   color: var(--third-color);
 }
 
