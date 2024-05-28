@@ -51,8 +51,7 @@ html {
 }
 .menu {
   grid-area: menu;
-  color: white;
-  background-color: white;
+  background-color: var(--main-white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,7 +63,7 @@ html {
 }
 .asidebar .link {
   text-decoration: none;
-  color: var(--main-white);
+  color: var(--main-color);
   margin: 5px;
 }
 .button-prime {
@@ -128,6 +127,10 @@ html {
 @media (min-width: 901px) {
   .menu {
     background-color: var(--third-color);
+    color: var(--main-white);
+  }
+  .asidebar .link {
+    color: var(--main-white);
   }
   .grid-container {
     display: grid;
